@@ -1,10 +1,10 @@
 # one-square-foot
 The one-square-foot application is a web-based application that is meant to be used in tenant management.
-The application is built from sractch without any framework.
+The application is built from scratch without any framework.
 The application enables an individual or company that is tasked with estate management to setup it up
 by adding properties, setting rooms in properties, move in tenants, handle tenant operations such as taking
 payments which might be rent payments, deposit payments for utilities or even down payments for space let.
-The application is meant to enable web-based receipt printing and also generate report in either HTML or PDF
+The application is meant to enable web-based receipt printing and also generate reports in either HTML or PDF
 formats.
 
 System Requirements
@@ -13,14 +13,14 @@ PHP 5.3+ (Very Important) PHP 5.3 is required since it introduced late static bi
 of inheriting methods that have been declared as static. Most classes in the system extend from a
 database abstraction class that has most of its methods that do non-class specific operations declared as static
 MySQL 5.0+
-An HTTP Server, prefarably Apache 2.0+
+An HTTP Server, preferably Apache 2.0+
 
 Required Extensions
 Perl Compatible Regular Extensions(PCRE) must be installed on your server. They are used for data validation purposes in the system
 
 Installation
 Download and extract the application files and folders into a folder located within your web server document root.
-For example, your can create a folder named one-square-foot in your web server's document root.
+For example, your can create a folder named one-square-foot in your web server document root.
 
 Create the One-Square-Foot Database
 Create the One-Sqaure-Foot database by either using the MySQL Console (a command-line-like utility for operating on MySQL), or a MySQL administration application like phpmyadmin.
@@ -33,10 +33,10 @@ directory. The line typically looks like:
 
 defined('SITE_ROOT') ? NULL : define('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'].DS.'app_real_estate-v02');
 
-The above line defines the root of your application. The portion "app_real_estate-v02" is the name of the folder located in your web server's document root into which you extracted the applications files and folders. Rename it to match the name you gave to that folder.
+The above line defines the root of your application. The portion "app_real_estate-v02" is the name of the folder located in your web server document root into which you extracted the applications files and folders. Rename it to match the name you gave to that folder.
 
-Your are now good to go. Go to the the browser and fire up the application from the base URL of your web server. E.g, say you 
-are running the application on localhost, and extracted it to a folder named "one-sqaure-foot", go to http://localhost/one-square-foot and get start using the application
+You are now good to go. Go to the the browser and fire up the application from the base URL of your web server. E.g, say you 
+are running the application on localhost, and extracted it to a folder named "one-sqaure-foot", go to http://localhost/one-square-foot and get started using the application
 
 
 
