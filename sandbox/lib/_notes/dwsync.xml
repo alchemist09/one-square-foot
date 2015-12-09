@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="class.Access.php" server="C:/wamp/www/app_real_estate-v02/" local="130875585400000000" remote="130875585400000000" />
+<file name="class.Arrears.php" server="C:/wamp/www/app_real_estate-v02/" local="130897151722985303" remote="130897151720000000" />
+<file name="class.ArrearsPaid.php" server="C:/wamp/www/app_real_estate-v02/" local="130899022636985125" remote="130899022630000000" />
+<file name="class.Cheque.php" server="C:/wamp/www/app_real_estate-v02/" local="130869453900000000" remote="130869453900000000" />
+<file name="class.CollectionReport.php" server="C:/wamp/www/app_real_estate-v02/" local="130898838400951955" remote="130898838400000000" />
+<file name="class.Database.php" server="C:/wamp/www/app_real_estate-v02/" local="130894497489227566" remote="130894497480000000" />
+<file name="class.DatabaseObject.php" server="C:/wamp/www/app_real_estate-v02/" local="130766896220000000" remote="130766896220000000" />
+<file name="class.Deposit.php" server="C:/wamp/www/app_real_estate-v02/" local="130899771623037918" remote="130899771620000000" />
+<file name="class.Expense.php" server="C:/wamp/www/app_real_estate-v02/" local="130882471100000000" remote="130882471100000000" />
+<file name="class.Fpdf.php" server="C:/wamp/www/app_real_estate-v02/" local="130883654740000000" remote="130883654740000000" />
+<file name="class.Logger.php" server="C:/wamp/www/app_real_estate-v02/" local="130892195540000000" remote="130892195540000000" />
+<file name="class.MySQLDatabase.php" server="C:/wamp/www/app_real_estate-v02/" local="130721927160000000" remote="130721927160000000" />
+<file name="class.Pagination.php" server="C:/wamp/www/app_real_estate-v02/" local="130765013500000000" remote="130765013500000000" />
+<file name="class.PaymentStatus.php" server="C:/wamp/www/app_real_estate-v02/" local="130887033360000000" remote="130887033360000000" />
+<file name="class.PDF_MC_TABLE.php" server="C:/wamp/www/app_real_estate-v02/" local="130893070020000000" remote="130893070020000000" />
+<file name="class.PDF_Report.php" server="C:/wamp/www/app_real_estate-v02/" local="130883551500000000" remote="130883551500000000" />
+<file name="class.PDF_Report_Tenant.php" server="C:/wamp/www/app_real_estate-v02/" local="130864472240000000" remote="130864472240000000" />
+<file name="class.Property.php" server="C:/wamp/www/app_real_estate-v02/" local="130898983730648993" remote="130898983730000000" />
+<file name="class.Rent.php" server="C:/wamp/www/app_real_estate-v02/" local="130899031547374011" remote="130899031540000000" />
+<file name="class.Report.php" server="C:/wamp/www/app_real_estate-v02/" local="130893171000000000" remote="130893171000000000" />
+<file name="class.Room.php" server="C:/wamp/www/app_real_estate-v02/" local="130897276632843964" remote="130897276630000000" />
+<file name="class.Session.php" server="C:/wamp/www/app_real_estate-v02/" local="130842836400000000" remote="130842836400000000" />
+<file name="class.Tenant.php" server="C:/wamp/www/app_real_estate-v02/" local="130898348062309054" remote="130898348060000000" />
+<file name="class.User.php" server="C:/wamp/www/app_real_estate-v02/" local="130836651140000000" remote="130836651140000000" />
+<file name="functions.php" server="C:/wamp/www/app_real_estate-v02/" local="130898212343199234" remote="130898212340000000" />
+<file name="init.php" server="C:/wamp/www/app_real_estate-v02/" local="130895760653278316" remote="130895760650000000" />
+<file name="class.DepositKPLC.php" server="C:/wamp/www/app_real_estate-v02/" local="130895557810000000" remote="130895557810000000" />
+<file name="class.DepositEldowas.php" server="C:/wamp/www/app_real_estate-v02/" local="130895570846124104" remote="130895570840000000" />
+</dwsync>

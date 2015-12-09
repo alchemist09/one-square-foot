@@ -1,0 +1,194 @@
+/* CSS Document */
+@import url(reset.css);
+@import url(type.css);
+
+#wrapper {
+	width: 1260px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px solid #B4B4B4;
+	border-right: 1px solid #B4B4B4;
+	border-collapse: collapse;
+}
+#header {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 120px;
+	background: #2FB0BB;
+	margin-bottom: 20px;
+	position: relative;
+}
+#main-nav {
+	margin-top: 29px;
+	margin-left: 20px;
+	z-index: 120;
+	float: left;
+	background: #000;
+}
+#main-nav li {
+	float: left;
+	border-right: 1px groove #fff;
+}
+#container {
+	clear: left;
+	width: 1220px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 50px;
+}
+#page {
+	min-height: 600px;
+	overflow: auto;
+}
+#side-bar {
+	float: left;
+	width: 180px;
+	margin-right: 20px;
+	background: #21584B;
+}
+#main-content {
+	margin-left: 200px;
+	padding-left: 20px;
+	min-height: 600px;
+	border-left: dotted thin #184043;
+	overflow: auto;
+}
+#footer {
+	width: 100%;
+	background: #17767B;
+	height: 30px;
+	clear: both;
+}
+table.bordered {
+	margin-bottom: 20px;
+}
+table.bordered, .bordered th, .bordered tr, .bordered td {
+	border: 2px groove #AEAEAE;
+}
+td.analysis {
+	font-weight: bold;
+}
+form fieldset {
+	border: 1px groove #B0B0B0;
+	width: 450px;
+	margin-bottom: 15px;
+	padding: 12px;
+}
+form legend { 
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #004848;
+ }
+#login_form {
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	margin-top: 100px;
+}
+.message {
+	background: #050;
+	color: #fff !important;
+	padding: 10px 20px;
+	width: 400px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	/*margin-left: 170px;*/
+	margin-bottom: 15px;
+	margin-top: 25px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+}
+.err_mesg {
+	background: #B00000;
+	color: #fff !important;
+	padding: 10px 20px;
+	width: 400px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	/*margin-left: 170px;*/
+	margin-bottom: 15px;
+	margin-top: 25px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+}
+#logout {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/exit.png) no-repeat;
+	background-position: center center;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	text-indent: -9999px;
+}
+.new-item {
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url(../images/10-medical.png) no-repeat;
+	background-position: center center;
+	text-indent: -9999px;
+	margin-bottom: 20px;
+}
+.date-form {
+	margin-bottom: 40px;
+}
+.prop-rooms {
+	margin-bottom: 30px;	
+}
+#status {
+	width: 200px;
+	padding: 10px;
+	margin-bottom: 25px;
+	border: 1px solid #c8c8c8;
+}
+.btn-cancel { text-decoration: none; }
+#btn-back {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	background: url(../images/btn-back.png) no-repeat;
+	background-position: center center;
+	margin-bottom: 12px;
+}
+fieldset {
+	border: 1px solid #343434;
+	width: 400px;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+}
+legend {
+	margin: 0px 10px 0px 10px;
+	padding: 0px 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+#clear_float { clear: both; }
+#director {
+	float: left;
+	width: 300px;
+	margin-bottom: 30px;
+}
+#landlord {
+	float: right;
+	width: 300px;
+	margin-bottom: 30px;
+}
+

@@ -1,0 +1,101 @@
+/* CSS Document */
+@import url(reset.css);
+body{
+	padding: 20px !important;
+}
+h2 {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+h3 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-stretch: ultra-condensed;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	margin-bottom: 6px;
+}
+#receipt-header {
+	margin-bottom: 6px;
+}
+hr {
+	height: 1px;
+	background: #191919;
+	margin-bottom: 5px;
+}
+#receipt-header p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	
+}
+#receipt-body p {
+	text-align: center;
+}
+.message {
+	background: #050;
+	color: #fff !important;
+	padding: 10px 20px;
+	width: 400px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	/*margin-left: 170px;*/
+	margin-bottom: 15px;
+	margin-top: 25px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+}
+#printArea {
+	width: 450px;
+	margin: 10px;
+	padding: 8px;
+	border: #616161 dashed thin;
+}
+table.bordered {
+	margin-bottom: 20px;
+}
+table.bordered, .bordered th, .bordered tr, .bordered td {
+	border: 2px groove #AEAEAE;
+}
+td.analysis {
+	font-weight: bold;
+}
+.btn-action{
+	text-indent: -9999px;
+	display: block;
+	background-position: center center;
+	width: 129px;
+	height: 36px;
+	margin: 15px 15px 5px 0px;
+	float: left;
+}
+#btn-back {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	background: url(../images/btn-back.png) no-repeat;
+	background-position: center center;
+	margin-bottom: 12px;
+	margin-top: 17px;
+	float: left;
+}
+#print-receipt { background: url(../images/btn-print-receipt.png) no-repeat }
+#director {
+	float: left;
+	width: 300px;
+	margin-bottom: 30px;
+}
+#landlord {
+	float: right;
+	width: 300px;
+	margin-bottom: 30px;
+}
