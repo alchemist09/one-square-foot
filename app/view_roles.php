@@ -13,6 +13,7 @@
 <?php
 	if(isset($_GET['refresh'])){
 		$role_id = (int)$_GET['role'];
+		//echo var_dump($role_id);
 		if(empty($role_id) || !is_int($role_id)){
 			$err = "Select a role to display permission assigned to it";	
 		} else {
@@ -53,15 +54,17 @@
             </form>
             
             <?php
-				if(!empty($permissions)){
-					foreach($permissions as $p){
-						$paragraph  = "<p><strong>";
-						$paragraph .= $p['name']."&nbsp;-</strong>";
-						$paragraph .= $p['description'];
-						echo $paragraph;	
-					}	
-				} elseif(empty($permissions) && !empty($role_id)){
-					echo "<p>That role has no permissions assigned to it yet</p>";	
+				if(isset($_GET['refresh'])){
+					if(!empty($permissions)){
+						foreach($permissions as $p){
+							$paragraph  = "<p><strong>";
+							$paragraph .= $p['name']."&nbsp;-</strong>";
+							$paragraph .= $p['description'];
+							echo $paragraph;	
+						}	
+					} elseif(empty($permissions) && !empty($role_id)){
+						echo "<p>That role has no permissions assigned to it yet</p>";	
+					}
 				}
 			?>
             
