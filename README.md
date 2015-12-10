@@ -23,7 +23,7 @@ Perl Compatible Regular Extensions(PCRE) must be installed on your server. They 
 Installation
 ---------------
 Download and extract the application files and folders into a folder located within your web server document root.
-For example, your can create a folder named one-square-foot in your web server document root.
+For example, your can create a folder named "one-square-foot" in your web server document root.
 
 Create the One-Square-Foot Database
 -----------------------------------
@@ -40,8 +40,26 @@ directory. The line typically looks like:
 
 The above line defines the root of your application. The portion "app_real_estate-v02" is the name of the folder located in your web server document root into which you extracted the applications files and folders. Rename it to match the name you gave to that folder.
 
+Edit Database File
+--------------------
+Edit the database file that contains structure of the application's database. Open the "database.sql" file using a text editing tool like notepad, then edit the database name to correspond to the name you assigned to the database created in the
+previous step. The line that contains information about the database typically looks like:
+
+###### 
+
+--
+-- Database: `app_real_estate_v2`
+--
+CREATE DATABASE IF NOT EXISTS `app_real_estate_v2` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `app_real_estate_v2`;
+
+-- -----
+
+In the above line, replace every instance of "app_real_estate_v2" with the name you gave your database. Save the file, then import it using either the MySQL console or phpmyadmin to setup the database tables for the application.
+
 You are now good to go. Go to the the browser and fire up the application from the base URL of your web server. E.g, say you 
-are running the application on localhost, and extracted it to a folder named "one-sqaure-foot", go to http://localhost/one-square-foot and get started using the application
+are running the application on localhost, and extracted it to a folder named "one-sqaure-foot", go to http://localhost/one-square-foot and get started using the application by logging in as an administrator using a username of "admin" and password of "pass". You can now start using the application by setting up properties, rooms, tenants, taking payments, and producing reports.
+
 
 
 
