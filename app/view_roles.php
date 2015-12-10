@@ -55,7 +55,7 @@
             
             <?php
 				if(isset($_GET['refresh'])){
-					if(!empty($permissions)){
+					if(!empty($role_id)){
 						foreach($permissions as $p){
 							$paragraph  = "<p><strong>";
 							$paragraph .= $p['name']."&nbsp;-</strong>";
